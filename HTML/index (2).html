@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/navbar.css">
+    <link rel="stylesheet" href="../CSS/gallery.css">
+    <script src="../JAVA SCRIPT/gallery.js" defer></script>
+</head>
+<body  onload="colo()">
+    <div id="a">
+        <h1 id="heading">Travelled Image Gallery</h1>
+        <!-- <img src="../ASSET/images/a.jpg"> -->
+  </div>
+<div id="bigscreen" class="fullscreenimg" style="display:none" onclick="imgv()">
+    <img id="fullimg" src="../ASSET/images/a.jpg">
+     <h1 id="imgheading">Heading</h1>
+     <p id="imgparagraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit quidem odit temporibus,
+       quisquam voluptas sunt reprehenderit perspiciatis expedita sequi magnam?
+      </p>
+</div>
+<div id="navbar">
+    <ul id="mainlist">
+      <li class="li"><a href="./index.html">HOME</a></li>
+      <li class="li" id="sublistplace">Places
+        <ul id="sublist">
+            <a href="#">
+          <li class="sli">India</li></a>
+          <li class="sli">Dubai</li>
+          <li class="sli">Srilanka</li>
+          <li class="sli">Thailand</li>
+          <li class="sli">Korea</li>
+        </ul>
+      </li>
+        <li class="li"><a href="./aboutus.html">INFO</a></li>
+        <li class="li"><a href="./login.html">LOGOUT</a></li>
+    </ul>
+  </div>
+  <!-- from here body of gallery starts -->
+  <div class="bodyofgallery">
+        <img src="../ASSET/images/a.jpg" onclick="imgk(this.src,'Dog','A well-trained dog will make no attempt to share your lunch. He will just make you feel so guilty that you cannot enjoy it.')">
+        <img src="../ASSET/images/b.jpg" onclick="imgk(this.src,'Elephant','Elephants may look huge and intimidating but these famous elephant quotes will show just how loving the animals really are.')">
+        <img src="../ASSET/images/c.jpg" onclick="imgk(this.src,'Dogs','Find Two Dogs stock images in HD and millions of other royalty-free stock photos, illustrations and vectors in the Shutterstock collection.')">
+        <img src="../ASSET/images/d.jpg" onclick="imgk(this.src,'Parrot','Be as a bird perched on a frail branch that she feels bending beneath her, still she sings away all the same, knowing she has wings.')">
+        <img src="../ASSET/images/e.jpg" onclick="imgk(this.src,'Brown Squirrel','“Whenever he looks at me with those big brown eyes, I feel like giving him a nut,” she said. She even started calling the squirrels running around in the park')">
+        <img src="../ASSET/images/f.jpg" onclick="imgk(this.src,'Butterfly','Butterflies cant see their wings they cant see how truly beautifullthey are, but everyone else can. People are like that as well. -Unknown.')">
+        <img src="../ASSET/images/g.jpg" onclick="imgk(this.src,'Rabbit','Even the smallest one can change the world.')">
+        <img src="../ASSET/images/h.jpg" onclick="imgk(this.src,'Tiger','Some days you tame the tiger, and some days the tiger has you for lunch.An oppressive government is more to be feared than a tiger.')">
+  </div>
+</body>
+</html>
